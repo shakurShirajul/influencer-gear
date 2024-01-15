@@ -175,3 +175,27 @@ nav {
     background: #E02C6D;
     border: none;
 }
+
+/* Footer Section */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0A0826;;
+    color:#FFFFFF;
+    gap: 5px;
+    padding: 50px;
+    border: 1px solid red;;
+}
+footer ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+    margin-top: 10px;
+    
+    /* border: 1px solid red; */
+}
+footer li{
+    list-style: none;
+}
